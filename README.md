@@ -18,32 +18,42 @@ This script monitors your internet connection and logs disconnection and reconne
 ```bash
 git clone https://github.com/yourusername/internet-monitor.git
 cd internet-monitor
-
+```
 ### 2. Install Dependencies
 ```bash
 pip install openpyxl requests
-Usage
+```
+## Usage
 
 ### Running the Script
 To run the script directly:
 
 ```bash
 python internet_monitor.py
-Creating a Standalone Executable
-1. Install pyinstaller
+```
+
+## Creating a Standalone Executable
+
+### 1. Install pyinstaller
 ```bash
 pip install pyinstaller
-2. Create the Executable
+```
+
+### 2. Create the Executable
 ```bash
 pyinstaller --onefile --noconsole internet_monitor.py
-3. Move the Executable
+```
+
+### 3. Move the Executable
+
 After running the above command, you will find the executable file in the dist directory inside your project folder. Move this file to your desired location.
 
-Running the Executable in the Background
-Create a Shortcut:
+### Running the Executable in the Background
 
-Right-click on the executable and select "Create shortcut".
-Move the Shortcut to the Startup Folder:
+#### Create a Shortcut:
+
+#### Right-click on the executable and select "Create shortcut".
+#### Move the Shortcut to the Startup Folder:
 
 Press Win + R, type shell:startup, and press Enter. This opens the Startup folder.
 Move the shortcut you created into this folder.

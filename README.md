@@ -53,14 +53,16 @@ After running the above command, you will find the executable file in the dist d
 #### Create a Shortcut:
 
 #### Right-click on the executable and select "Create shortcut".
+
 #### Move the Shortcut to the Startup Folder:
 
-Press Win + R, type shell:startup, and press Enter. This opens the Startup folder.
-Move the shortcut you created into this folder.
-This ensures that the executable will run automatically in the background whenever your computer starts.
+#### Press Win + R, type shell:startup, and press Enter. This opens the Startup folder.
 
-Contributing
+#### Move the shortcut you created into this folder. This ensures that the executable will run automatically in the background whenever your computer starts.
+
+
+## Contributing
 Feel free to submit issues or pull requests if you have any suggestions or improvements.
 
-License
+## License
 This project is licensed under the MIT License.
